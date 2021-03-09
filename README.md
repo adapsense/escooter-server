@@ -30,6 +30,7 @@ This command subscribes to the broker on the hostname "localhost" with the topic
 mosquitto_pub -h localhost -t test -m "hello world"
 ```
 This command publishes the message "hello world" to the topic "test". Now check the new terminal if the message was received there.
+
 4. Prepare to install certbot
 
 In the old terminal, key in the following
